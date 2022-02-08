@@ -8,16 +8,17 @@ import { useAuthListener } from './hooks';
 export default function App() {
   const { user } = useAuthListener();
   //const user = null;
+  
   return (
     <Router>
       <Routes>
-      <Route user={user} loggedInPath={ROUTES.BROWSE} path={ROUTES.SIGN_IN} element={<Signin/>}>
+       <Route user={user} loggedInPath={ROUTES.BROWSE} path={ROUTES.SIGN_IN} element={<Signin/>}>
         </Route>
         <Route user={user} loggedInPath={ROUTES.BROWSE} path={ROUTES.SIGN_UP} element={<Signup/>}>
-        </Route>
+        </Route> 
+       <Route user={user} path={ROUTES.BROWSE} element={<Browse/>}>
+        </Route>  
         <Route user={user} loggedInPath={ROUTES.BROWSE} path={ROUTES.HOME} element={<Home/>}>
-        </Route>
-        <Route path={ROUTES.BROWSE} element={<><ProtectedRoute loggedInPath={ROUTES.BROWSE} user={user}/></>}>
         </Route>
       </Routes>
     </Router>

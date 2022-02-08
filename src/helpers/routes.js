@@ -28,16 +28,26 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest}) {
 }
 
 export function ProtectedRoute({ user, children, ...rest }) {
-    console.log('User is:', user)
-    //return user ? children : <Navigate to="/signin"/>
-
-    if(!user) {
-        return <Navigate to="/signin"/>
-    }
-
-    if(user) {
-        return <Navigate to={ROUTES.BROWSE}/>
-    }
-
-    
-}
+    return (
+      <Route
+        {...rest}
+        render={({ location }) => {
+          if (user) {
+            return children;
+          }
+  
+          if (!user) {
+            return (
+              <Navigate
+                to={{
+                  pathname: 'signin',
+                  state: { from: location },
+                }}
+              />
+            );
+          }
+          return null;
+        }}
+      />
+    );
+  }
