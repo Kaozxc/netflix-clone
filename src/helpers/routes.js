@@ -13,7 +13,6 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest}) {
             }
 
             if(user) {
-                console.log('I am a user', loggedInPath)
                 return (
                     <Navigate to={{
                         pathname: loggedInPath,
