@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders the <Card /> with and clicks the card feature 1`] = `
+<div
+  class="sc-pVTFL kzQVvY"
+>
+  <div
+    class="sc-furwcr cXXqze"
+  >
+    <p
+      class="sc-iCfMLu bkVUFW"
+    >
+      Documentaries
+    </p>
+    <div
+      class="sc-fFeiMQ kEqRYh"
+    >
+      <div
+        class="sc-bkkeKt edBWKA"
+        data-testid="tiger-king-item-feature"
+      >
+        <img
+          class="sc-ieecCq iVrRPb"
+          src="/images/series/documentaries/tiger-king/small.jpg"
+        />
+        <div
+          class="sc-fotOHu dPLWyP"
+        >
+          <p
+            class="sc-jrQzAO iVaqpS"
+          >
+            Tiger King
+          </p>
+          <p
+            class="sc-kDTinF fxnaae"
+          >
+            Tiger King description
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-furwcr cXXqze"
+  >
+    <p
+      class="sc-iCfMLu bkVUFW"
+    >
+      Feel Good
+    </p>
+    <div
+      class="sc-fFeiMQ kEqRYh"
+    >
+      <div
+        class="sc-bkkeKt edBWKA"
+        data-testid="juno-item-feature"
+      >
+        <img
+          class="sc-ieecCq iVrRPb"
+          src="/images/series/feel-good/juno/small.jpg"
+        />
+        <div
+          class="sc-fotOHu dPLWyP"
+        >
+          <p
+            class="sc-jrQzAO iVaqpS"
+          >
+            Juno
+          </p>
+          <p
+            class="sc-kDTinF fxnaae"
+          >
+            Juno description
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> renders the <Card /> with populated data 1`] = `
+<div
+  class="sc-pVTFL kzQVvY"
+>
+  <div
+    class="sc-furwcr cXXqze"
+  >
+    <p
+      class="sc-iCfMLu bkVUFW"
+    >
+      Documentaries
+    </p>
+    <div
+      class="sc-fFeiMQ kEqRYh"
+    >
+      <div
+        class="sc-bkkeKt edBWKA"
+      >
+        <img
+          class="sc-ieecCq iVrRPb"
+          src="/images/series/documentaries/tiger-king/small.jpg"
+        />
+        <div
+          class="sc-fotOHu dPLWyP"
+        >
+          <p
+            class="sc-jrQzAO iVaqpS"
+          >
+            Tiger King
+          </p>
+          <p
+            class="sc-kDTinF fxnaae"
+          >
+            Tiger King description
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-furwcr cXXqze"
+  >
+    <p
+      class="sc-iCfMLu bkVUFW"
+    >
+      Feel Good
+    </p>
+    <div
+      class="sc-fFeiMQ kEqRYh"
+    >
+      <div
+        class="sc-bkkeKt edBWKA"
+      >
+        <img
+          class="sc-ieecCq iVrRPb"
+          src="/images/series/feel-good/juno/small.jpg"
+        />
+        <div
+          class="sc-fotOHu dPLWyP"
+        >
+          <p
+            class="sc-jrQzAO iVaqpS"
+          >
+            Juno
+          </p>
+          <p
+            class="sc-kDTinF fxnaae"
+          >
+            Juno description
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

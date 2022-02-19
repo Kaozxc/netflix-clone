@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders the <Footer /> with populated data 1`] = `
+<div
+  class="sc-dJjYzT bJFKhw"
+>
+  <p
+    class="sc-fKVqWL eVNMfX"
+  >
+    Questions? Contact us!
+  </p>
+  <p
+    class="sc-iwjdpV fA-dUAI"
+  />
+  <div
+    class="sc-dlVxhl fjriSQ"
+  >
+    <div
+      class="sc-hGPBjI bTReDC"
+    >
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        FAQ
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Investor Relations
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Ways to Watch
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Corporate Information
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Netflix Originals
+      </a>
+    </div>
+    <div
+      class="sc-hGPBjI bTReDC"
+    >
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Help Centre
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Jobs
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Terms of Use
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Contact Us
+      </a>
+    </div>
+    <div
+      class="sc-hGPBjI bTReDC"
+    >
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Account 
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Redeem Gift Cards
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Privacy
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Speed Test
+      </a>
+    </div>
+    <div
+      class="sc-hGPBjI bTReDC"
+    >
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Media Centre
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Buy Gift Cards
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Cookie Preferences
+      </a>
+      <a
+        class="sc-kfPuZi iNigq"
+        href="#"
+      >
+        Legal Notices
+      </a>
+    </div>
+  </div>
+  <p
+    class="sc-iwjdpV fA-dUAI"
+  />
+  <p
+    class="sc-bBHxTw eirdyI"
+  >
+     Netflix United Kingdom 
+  </p>
+</div>
+`;

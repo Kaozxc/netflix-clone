@@ -11,15 +11,13 @@ describe('<Player />', () => {
             </Player>
         );
 
-        expect(queryByTestId('player').toBeFalsy(),
-        fireEvent.click(getByText('Play')),
+        expect(queryByTestId('player')).toBeFalsy();
+        fireEvent.click(getByText('Play'));
         
-        expect(queryByTestId('player').toBeTruthy(),
-        fireEvent.click(getByText('Play')),
+        expect(queryByTestId('player')).toBeTruthy();
+        fireEvent.click(queryByTestId('player'));
 
-        expect(queryByTestId('player').toBeFalsy(),
-        expect(container.firstChild).toMatchSnapshot(),
-
-        )
+        expect(queryByTestId('player')).toBeFalsy();
+        expect(container.firstChild).toMatchSnapshot();
     });
 });
