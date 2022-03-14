@@ -10,7 +10,7 @@ export default function App() {
   const user = null;
 
   return (
-    <Router>
+    <Router basename="/netflix-clone">
       <Routes>
         <Route user={user} loggedInPath={ROUTES.BROWSE} path={ROUTES.SIGN_IN} element={<Signin />}>
         </Route>
